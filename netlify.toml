@@ -1,0 +1,4 @@
+[build]
+  base = "public/"  # If your project is in the root directory, leave this blank. If it's in a subdirectory, specify the subdirectory name.
+  publish = "public/dist"  # The directory where your built files are located.
+  command = "npm run build"  # The command to build your project.
