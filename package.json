@@ -1,0 +1,19 @@
+{
+  "name": "beatwise-hackathon",
+  "version": "1.0.0",
+  "description": "A simple Tailwind CSS project",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/styles.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/styles.css --minify"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.15",
+    "postcss": "^8.4.16",
+    "autoprefixer": "^10.4.7"
+  },
+  "author": "Lukwago Joseph Bakumpe",
+  "license": "MIT"
+}
